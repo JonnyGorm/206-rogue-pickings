@@ -57,7 +57,7 @@ header {
 
 header h1 {
 	margin: 0;
-	padding: 32.375rem 0;
+	padding: 0;
 	text-align: center;
 }
 header h1 span {
@@ -76,8 +76,8 @@ header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 1.1428rem;
-	padding: 0 0.625rem;
-	display: inline;
+	padding: 0 ;
+	display: flex;
 }
 header nav ul li a{
 	text-decoration: none;
@@ -130,7 +130,7 @@ header nav ul li a{
 .section-one,
 .section-two,
 .section-three {
-	width: 100%%;
+	width: 100%;
 	height: auto;
 	border-top: 0.0625rem solid #eee;
 }
