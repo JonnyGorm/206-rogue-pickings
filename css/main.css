@@ -1,0 +1,187 @@
+html {
+	color: #222;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+
+body {
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1em;
+}
+
+.container{
+	max-width: 1200px;
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+}
+
+h1,
+h2,
+h3 {
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+h1 {
+	font-size: 2rem;
+}
+h2 {
+	font-size: 1rem;
+}
+h3 {
+	font-size: 0.9rem;
+}
+
+p {
+	font-size: 1rem;
+	line-height: 1.5rem;
+    padding: 0 2rem;
+}
+
+/*The widths are in a percentage!*/
+header {
+	height: 6.875rem;
+	border-bottom: 0.1875rem solid #77a466;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header h1 {
+	margin: 0;
+	padding: 32.375rem 0;
+	text-align: center;
+}
+header h1 span {
+	color: #77a466;
+}
+
+header nav {
+	padding: 3rem 0;
+	text-align: center;
+}
+header nav ul {
+	margin: 0;
+	padding: 0;
+}
+header nav ul li {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1.1428rem;
+	padding: 0 0.625rem;
+	display: inline;
+}
+header nav ul li a{
+	text-decoration: none;
+	color:#77a466;
+}
+
+/*The widths are in a percentage!*/
+.top-section,
+.bottom-section {
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-image {
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.main-image img {
+	width: 100%;
+	border-bottom: 0.1875rem solid #77a466;
+	
+}
+
+.main-title {
+	height: auto;
+	
+}
+.main-title h2 {
+	text-align: left;
+	padding: 0.3125rem 0;
+	color: #77a466;
+}
+.main-title p {
+	padding: 0;
+	font-size: 1rem;
+	line-height: 1..5625rem;
+}
+.top-section {
+	width: 100%;
+}
+
+.bottom-section {
+	flex-flow: row wrap;
+}
+.section-one,
+.section-two,
+.section-three {
+	width: 100%%;
+	height: auto;
+	border-top: 0.0625rem solid #eee;
+}
+
+.section-one h3 {
+	padding: 0.625rem 0;
+}
+
+.section-two {
+	border-left: 0.0625rem solid #eee;
+	border-right: 0.0625rem solid #eee;
+}
+
+.section-two h3,
+.section-three h3 {
+	padding: 0.625rem 1.875rem;
+}
+
+.menu {
+	list-style: none;
+	padding: 0;
+}
+.menu li {
+	padding: 0.625rem 0;
+	color:#77a466;
+}
+
+.reviews {
+	color: #333;
+	font-size: 1rem;
+	line-height: 1.3125rem;
+}
+
+.address {
+	font-size: 1rem;
+	line-height: 1.5rem;
+}
+
+/*The widths are in a percentage!*/
+footer {
+	border-top: 0.1875rem solid #eee;
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+footer span {
+	font-family: 'Galada', cursive;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: 0.875rem;
+}
+
