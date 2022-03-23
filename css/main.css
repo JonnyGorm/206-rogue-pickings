@@ -109,9 +109,6 @@ header nav ul li a{
 	
 }
 
-.main-title {
-	
-}
 .main-title h2 {
 	text-align: left;
 	padding: 0.3125rem 0;
@@ -140,10 +137,6 @@ header nav ul li a{
 
 .section-one h3 {
 	padding: 0.625rem 0;
-}
-
-.section-two {
-	
 }
 
 .section-two h3,
@@ -197,6 +190,7 @@ footer span {
 	.bottom-section {
 		flex-wrap: nowrap;
 		border-top: 0.0625rem solid #eee;
+		align-items: baseline;
 	}
 	.section-one, .section-two, .section-three {
 		 width: 100%; 
@@ -218,6 +212,9 @@ footer span {
 	header {
 		flex-wrap: nowrap;
 	}
+	header nav {
+		word-spacing: 0.4rem;
+	}
 
 	header h1 {
 		text-align: start;
@@ -229,9 +226,8 @@ footer span {
 		display: inline-block;
 		padding: 0 0 2rem 0;
 	}
-	.section-two {
-		padding-top: 0;
-		padding-bottom: 0;
+	.bottom-section  {
+		align-items:baseline;
 	}
 }
 
