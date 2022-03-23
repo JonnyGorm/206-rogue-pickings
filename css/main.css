@@ -175,7 +175,7 @@ header nav ul li a{
 
 /*The widths are in a percentage!*/
 footer {
-	border-top: 0.1875rem solid #eee;
+	border-top: 0.0625rem solid #eee;
 	margin: 0 auto;
 	text-align: center;
 	display: flex;
@@ -188,5 +188,50 @@ footer span {
 	text-transform: lowercase;
 	color: #77a466;
 	font-size: 0.875rem;
+}
+
+
+
+/***** Small devices (tablets, 768px and up) *****/
+@media (min-width: 768px) {
+	.bottom-section {
+		flex-wrap: nowrap;
+		border-top: 0.0625rem solid #eee;
+	}
+	.section-one, .section-two, .section-three {
+		 width: 100%; 
+		 border: 0;
+		}
+	.section-two {
+		padding: 1rem;
+		border-left: 0.0625rem solid #eee; 
+		border-right: 0.0625rem solid #eee;
+		}
+	.section-three { 
+		padding-left: 1rem;
+	}
+}
+
+
+/***** Large devices ( desktops, 1200px and up) *****/
+@media (min-width: 1200px) {
+	header {
+		flex-wrap: nowrap;
+	}
+
+	header h1 {
+		text-align: start;
+		border-bottom: 0;
+		padding: 0 0 2rem 0;
+	}
+	header nav ul li {
+		text-align: end;
+		display: inline-block;
+		padding: 0 0 2rem 0;
+	}
+	.section-two {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
 }
 
