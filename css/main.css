@@ -213,10 +213,11 @@ footer span {
 		flex-wrap: nowrap;
 	}
 	header nav {
-		word-spacing: 0.4rem;
+		word-spacing: 0.11rem;
 	}
 
 	header h1 {
+		width: 100%;
 		text-align: start;
 		border-bottom: 0;
 		padding: 0 0 2rem 0;
