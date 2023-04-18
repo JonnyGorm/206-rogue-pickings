@@ -45,7 +45,7 @@ p {
     padding: 0 2rem;
 }
 
-/*The widths are in a percentage!*/
+
 header {
 	border-bottom: 0.1875rem solid #77a466;
 	margin: 0 auto;
@@ -88,7 +88,7 @@ header nav ul li a{
 	color:#77a466;
 }
 
-/*The widths are in a percentage!*/
+
 .top-section,
 .bottom-section {
 	margin: 0 auto;
@@ -166,7 +166,7 @@ header nav ul li a{
 	padding: 0;
 }
 
-/*The widths are in a percentage!*/
+
 footer {
 	border-top: 0.0625rem solid #eee;
 	margin: 0 auto;
